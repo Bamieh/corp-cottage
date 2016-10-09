@@ -1,0 +1,34 @@
+{{yield}}
+<header>
+  <nav class="cd-stretchy-nav">
+    <a class="cd-nav-trigger" href="#0">
+      Menu
+      <span aria-hidden="true"></span>
+    </a>
+
+    <ul>
+      <li>
+        {{#link-to 'home'}}
+          <span>Home</span>
+        {{/link-to}}
+      </li>
+      <li>
+        {{#link-to 'key-metrics'}}
+          <span>Metrics</span>
+        {{/link-to}}
+      </li>
+      <li>
+        {{#link-to 'geo-spatial'}}
+          <span>Geospatial</span>
+        {{/link-to}}
+      </li>
+      <li>
+        {{#link-to 'issues'}}
+          <span>Issues</span>
+        {{/link-to}}
+      </li>
+    </ul>
+
+    <span aria-hidden="true" class="stretchy-nav-bg"></span>
+  </nav>
+</header>

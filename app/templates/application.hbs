@@ -1,0 +1,9 @@
+{{navigation-menu}}
+<div class="body container-fluid">
+  <div>
+    {{#each breadCrumbs as |breadCrumb|}}
+      {{#link-to breadCrumb.path}}{{breadCrumb.name}}{{/link-to}} /
+    {{/each}}
+  </div>
+  {{outlet}}
+</div>
