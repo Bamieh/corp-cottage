@@ -1,6 +1,12 @@
+$enable-transitions: true;
+
 $body-bg: #003c5d;
 $body-color: white;
 $font-family-sans-serif: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 
 $brand-primary: #9acd91;
 $link-hover-decoration: none;
+
+$breadcrumb-bg: transparent;
+$breadcrumb-padding-y: 0;
+$breadcrumb-padding-x: 0;

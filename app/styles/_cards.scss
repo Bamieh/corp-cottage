@@ -11,10 +11,7 @@
     box-shadow: 0 10px 13px -6px rgba(0,0,0,.2),0 21px 33px 3px rgba(0,0,0,.14),0 8px 40px 7px rgba(0,0,0,.12);
 }
 .card {
-  background-color: white;
-  margin: 25px;
   padding: 10px;
-  border-radius: 4px;
   color: black;
   @include animation(slideIn 0.34s 0s ease-out);
 }

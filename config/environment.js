@@ -5,6 +5,13 @@ module.exports = function(environment) {
     modulePrefix: 'corp-cottage',
     environment: environment,
     rootURL: '/',
+    firebase: {
+      apiKey: "AIzaSyCU4NqVrVaKsd93HZXTesHCfF51C2OIJ-4",
+      authDomain: "corporate-dashboard-cd14e.firebaseapp.com",
+      databaseURL: "https://corporate-dashboard-cd14e.firebaseio.com",
+      storageBucket: "corporate-dashboard-cd14e.appspot.com",
+      messagingSenderId: "231675676241"
+    },
     locationType: 'auto',
     EmberENV: {
       FEATURES: {

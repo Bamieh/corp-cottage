@@ -25,6 +25,7 @@ Stretchy Nav style - common to:
     /* this is the stretching navigation background */
     position: absolute;
     z-index: 1;
+    
     top: 0;
     right: 0;
     width: 60px;
@@ -32,7 +33,15 @@ Stretchy Nav style - common to:
     border-radius: 30px 0 30px 30px;
     background: $color-2;
     box-shadow: 0 1px 4px rgba(#000, .2);
-    @include transition(height .2s, box-shadow .2s);
+    @include transition(height .2s 0s ease, box-shadow .2s 0s ease);
+    @at-root .nav-is-visible .full {
+      height: 100vh !important;
+      position: absolute;
+      width: 90px;
+      top: -40px;
+      border-radius: 0;
+      left: 0px;
+    }
   }
 
   &.nav-is-visible {
@@ -251,19 +260,4 @@ Stretchy Nav style - common to:
   li:nth-of-type(5) span {
     @include animation-delay(.25s);
   }
-}
-
-
-/* -------------------------------- 
-
-main content basic style
-
--------------------------------- */
-
-.body {
-  position: relative;
-  z-index: 1;
-  min-height: 100vh;
-  padding-top: 100px;
-  background-color: $color-1;
 }
