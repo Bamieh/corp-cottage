@@ -7,6 +7,18 @@ module.exports = function(defaults) {
     // Add options here
     sassOptions: {
       includePaths: require("bourbon").includePaths
+    },
+    emberHighCharts: {
+      includeHighCharts: true,
+      includeHighStock: false,
+      includeHighMaps: false,
+      includeHighChartsMore: false,
+      includeHighCharts3D: false,
+      includeModules: ['map']
+      /* available modules:
+        boost, broken-axis, canvas-tools, data, drilldown, exporting, funnel,
+        heatmap, map, no-data-to-display, offline-exporting, solid-gauge, treemap
+      */
     }
   });
 

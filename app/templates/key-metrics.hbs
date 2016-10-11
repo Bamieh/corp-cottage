@@ -1,6 +1,11 @@
 {{outlet}}
 <div class="raw">
-  <div class="col-xs-12 col-sm-10 card md-whiteframe-10dp">
-    
+  <div class="col-xs-12 card md-whiteframe-10dp">
+    {{line-chart model=model}}
   </div>
 </div>
+
+
+{{#each model as |post|}}
+  <div>fullData: {{post.fullData}}</div>
+{{/each}}

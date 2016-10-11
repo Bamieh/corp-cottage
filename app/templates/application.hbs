@@ -3,18 +3,22 @@
   <div class="logo logo--small"></div>
 {{/link-to}}
 
-<div class="body container-fluid">
-  <div class="raw breadcrumb-container">
-    <div class="col-xs-12">
-      <small class="text-thin">Corporate Cottage</small>
-    </div>
-    <div class="col-xs-12 col-sm-10">
-      <div class="breadcrumb">
-        {{#each breadCrumbs as |breadCrumb|}}
-          {{#link-to breadCrumb.path class='breadcrumb-item'}}{{breadCrumb.name}}{{/link-to}}
-        {{/each}}
+<div class="body">
+  <div class="container-fluid">
+    <div class="raw breadcrumb-container">
+      <div class="col-xs-12">
+        <small class="text-thin">Corporate Cottage</small>
+      </div>
+      <div class="col-xs-12">
+        <div class="breadcrumb">
+          {{#each breadCrumbs as |breadCrumb|}}
+            {{#link-to breadCrumb.path class='breadcrumb-item'}}{{breadCrumb.name}}{{/link-to}}
+          {{/each}}
+        </div>
       </div>
     </div>
   </div>
-  {{outlet}}
+  <div class="container">
+    {{outlet}}
+  </div>
 </div>
