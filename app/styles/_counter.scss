@@ -1,0 +1,22 @@
+.counter {
+  color: $brand-primary;
+  font-size: 23px;
+  text-align: center;
+  padding: 10px;
+  text-align: center;
+  @at-root #{&}__title {
+    font-size: 20px;
+  }
+  @at-root #{&}__image {
+    height: 120px;
+    max-width: 100%;
+  }
+}
+.widget-divider {
+  position: absolute;
+  height: 80%;
+  width: 1px;
+  top: 10%;
+  right: 0;
+  background-color: $gray-lighter;
+}

@@ -1,11 +1,31 @@
 {{outlet}}
-<div class="raw">
+<div class="row">
   <div class="col-xs-12 card md-whiteframe-10dp">
-    {{line-chart model=model}}
+  <div class="row">
+    <div class="col-xs-12 col-sm-4 col-md-4 hidden-md-down">
+      {{counter-widget image="money-bag.svg" title="Revenues" value=3732932}}
+      <div class="widget-divider"></div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-lg-4 hidden-xs-down">
+      {{counter-widget image="id-card.svg" title="Employees" value=173}}
+      <div class="widget-divider"></div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-lg-4">
+      {{counter-widget image="package.svg" title="Open Issues" value=7283}}
+    </div>
+  </div>
   </div>
 </div>
 
-
-{{#each model as |post|}}
-  <div>fullData: {{post.fullData}}</div>
-{{/each}}
+<div class="row">
+  <div class="col-xs-12 card md-whiteframe-10dp">
+    <div class="row">
+      <div class="col-xs-12 col-lg-6">
+        {{line-chart model=model type="spline" title="Sales Volume" legend="worldwide"}}
+      </div>
+      <div class="col-xs-12 col-lg-6">
+        {{line-chart model=model type="column" title="Reported Issues"}}
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,5 +1,11 @@
 # Corp-cottage
 
+A “key metrics” view, containing components displaying: 
+  1. the number of open issues
+  2. a line chart reflecting number of paying customers over a period of time
+  3. a bar chart reflecting number of reported issues over a period of time.
+
+
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
 

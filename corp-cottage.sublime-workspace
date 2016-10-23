@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"chart",
+				"chartData"
+			],
+			[
+				"data",
+				"fullData"
+			],
+			[
+				"employ",
+				"employeeList"
+			],
+			[
 				"list-s",
 				"list-style-type"
 			],
@@ -550,28 +562,49 @@
 	},
 	"file_history":
 	[
+		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/styles/_data-table.scss",
+		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/styles/_variables.scss",
+		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/styles/_cards.scss",
+		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/styles/_home.scss",
+		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/styles/_counter.scss",
+		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/templates/components/line-chart.hbs",
+		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/models/bardata.js",
+		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/templates/application.hbs",
+		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/templates/geo-spatial.hbs",
 		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/templates/home.hbs",
+		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/templates/issues.hbs",
+		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/components/counter-widget.js",
+		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/templates/components/counter-widget.hbs",
+		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/templates/key-metrics.hbs",
+		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/ember-cli-build.js",
+		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/routes/key-metrics.js",
+		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/styles/app.scss",
+		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/components/line-chart.js",
+		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/bower.json",
+		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/public/count-up.min.js",
+		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/package.json",
+		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/models/linedata.js",
+		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/transforms/object.js",
+		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/templates/components/team-chart.hbs",
+		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/styles/_navigation-menu.scss",
+		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/public/MOCK_TEAMS.json",
+		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/routes/geo-spatial.js",
+		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/models/geospatial-teams.js",
+		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/components/team-chart.js",
+		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/config/environment.js",
+		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/controllers/geo-spatial.js",
+		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/data/us-ca-map.js",
+		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/components/data/us-ca-map.js",
+		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/templates/components/issues-table.hbs",
 		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/templates/components/navigation-menu.hbs",
 		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/bower_components/bootstrap/grunt/bs-sass-compile/libsass.js",
 		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/bower_components/bootstrap/scss/_variables.scss",
-		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/styles/_variables.scss",
 		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/bower_components/bootstrap/scss/_mixins.scss",
-		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/styles/_cards.scss",
-		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/templates/application.hbs",
-		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/templates/geo-spatial.hbs",
-		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/templates/key-metrics.hbs",
-		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/templates/issues.hbs",
-		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/styles/_navigation-menu.scss",
-		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/styles/app.scss",
 		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/styles/_general.scss",
-		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/styles/_data-table.scss",
-		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/styles/_home.scss",
 		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/components/page-card.js",
 		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/templates/components/page-card.hbs",
 		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/styles/_animations.scss",
-		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/templates/components/issues-table.hbs",
 		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/styles/partials/_mixins.scss",
-		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/ember-cli-build.js",
 		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/public/MOCK_ISSUES.csv",
 		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/styles/_bootstrap.scss",
 		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/styles/partials/_variables.scss",
@@ -583,7 +616,6 @@
 		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/routes/issues.js",
 		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/index.html",
 		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/bower_components/bootstrap/scss/bootstrap.scss",
-		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/bower.json",
 		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/styles/app.css",
 		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/styles/cards.scss",
 		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/styles/data-table.scss",
@@ -592,7 +624,6 @@
 		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/reset.css",
 		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/style.css",
 		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/routes/index.js",
-		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/routes/geo-spatial.js",
 		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/controllers/navigation-menu.js",
 		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/router.js",
 		"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/templates/navigation-menu.hbs",
@@ -658,26 +689,7 @@
 		"/Users/Bamieh/Bamieh/TheShip/.cookbook/index.js",
 		"/Users/Bamieh/Bamieh/TheShip/assets/components/YsCalendar/components/Month.js",
 		"/Users/Bamieh/Bamieh/TheShip/assets/components/YsCalendar/components/MonthGrid.js",
-		"/Users/Bamieh/Bamieh/TheShip/assets/styles/yamsafer/directives/_BEM-helpers.scss",
-		"/Users/Bamieh/Bamieh/TheShip/assets/styles/yamsafer/directives/index.scss",
-		"/Users/Bamieh/Bamieh/TheShip/assets/components/YsCalendar/utils/isTransitionEndSupported.js",
-		"/Users/Bamieh/Bamieh/TheShip/assets/components/YsCalendar/components/DayPicker.js",
-		"/Users/Bamieh/Bamieh/TheShip/assets/components/YsCalendar/utils/isSameDay.js",
-		"/Users/Bamieh/Bamieh/TheShip/assets/styles/yamsafer/directives/_mixins.scss",
-		"/Users/Bamieh/Bamieh/TheShip/assets/components/YsCalendar/utils/isInclusivelyAfterDay.js",
-		"/Users/Bamieh/Bamieh/TheShip/assets/components/YsCalendar/utils/isInclusivelyBeforeDay.js",
-		"/Users/Bamieh/Bamieh/TheShip/assets/components/YsCalendar/utils/toMomentObject.js",
-		"/Users/Bamieh/Bamieh/TheShip/assets/components/YsCalendar/components/Day.js",
-		"/Users/Bamieh/Bamieh/TheShip/assets/components/YsCalendar/utils/toLocalizedDateString.js",
-		"/Users/Bamieh/Bamieh/TheShip/assets/components/YsCalendar/utils/isTouchDevice.js",
-		"/Users/Bamieh/Bamieh/TheShip/assets/components/YsCalendar/utils/isNextDay.js",
-		"/Users/Bamieh/Bamieh/TheShip/assets/components/YsCalendar/shapes/FocusedInputShape.js",
-		"/Users/Bamieh/Bamieh/TheShip/assets/styles/components/YsCalendar/(delete)_day-picker.scss",
-		"/Users/Bamieh/Bamieh/TheShip/assets/components/YsCalendar/resources/chevron-right.svg",
-		"/Users/Bamieh/Bamieh/TheShip/assets/components/YsCalendar/resources/chevron-left.svg",
-		"/Users/Bamieh/Bamieh/TheShip/.cookbook/head.html",
-		"/Users/Bamieh/Bamieh/TheShip/webpack.config.js",
-		"/Users/Bamieh/Bamieh/TheShip/assets/components/YsCalendar/components/OutsideClickHandler.js"
+		"/Users/Bamieh/Bamieh/TheShip/assets/styles/yamsafer/directives/_BEM-helpers.scss"
 	],
 	"find":
 	{
@@ -688,6 +700,7 @@
 		"height": 158.0,
 		"where_history":
 		[
+			"/Users/Bamieh/Bamieh/Udacity/corp-cottage/app/templates",
 			"",
 			"/Users/Bamieh/Bamieh/Udacity/corp-cottage/bower_components/bootstrap/scss",
 			"/Users/Bamieh/Bamieh/Udacity/corp-dash/app",
@@ -814,8 +827,7 @@
 			"",
 			"/Users/Bamieh/Bamieh/TheShip/assets/js",
 			"/Users/Bamieh/Bamieh/TheShip/assets/js/hotelpage",
-			"/Users/Bamieh/Bamieh/TheShip/assets/js",
-			"/Users/Bamieh/Bamieh/TheShip/views/checkout"
+			"/Users/Bamieh/Bamieh/TheShip/assets/js"
 		]
 	},
 	"find_state":
@@ -823,6 +835,25 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"raw",
+			"<div class=\"col-xs-4\">",
+			"demo",
+			"new Date(FBdate).toISOString()",
+			"chartData",
+			"[0].data",
+			"data",
+			"newData",
+			"data",
+			"payment",
+			"model",
+			"passData",
+			"payments",
+			"currentRevision",
+			"chartData",
+			"store",
+			"params",
+			"highcharts",
+			"high-charts",
 			"margin",
 			"span",
 			"h1",
@@ -931,26 +962,7 @@
 			"RangePicker",
 			"shallowCompare",
 			"Transform",
-			"transform",
-			"HORIZONTAL_ORIENTATION",
-			"getTransformStyles",
-			"ReactDOM",
-			"moment",
-			"momentPropTypes",
-			"propTypes",
-			"OrientationShape",
-			"monthFormat",
-			"activeDateShape",
-			"momentPropTypes",
-			"cx",
-			"modifiers",
-			"Modifiers",
-			"modifiers",
-			"const modifiers = {",
-			"isTransitionEndSupported",
-			"refs",
-			"this.containerRef",
-			"containerRef"
+			"transform"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -958,6 +970,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"row",
 			"../../sha",
 			"../../utils",
 			"extendedMonths",
@@ -1040,6 +1053,14 @@
 		"selected_items":
 		[
 			[
+				"bower.",
+				"bower.json"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
 				"bootstrappad",
 				"bower_components/bootstrap/ISSUE_TEMPLATE.md"
 			],
@@ -1074,10 +1095,6 @@
 			[
 				"color",
 				"assets/styles/yamsafer/directives/variables/_colors.scss"
-			],
-			[
-				"pack",
-				"package.json"
 			],
 			[
 				"colo",
@@ -1546,10 +1563,6 @@
 			[
 				"js",
 				"assets/js/hotelpage/swiper.js"
-			],
-			[
-				"i18nbe",
-				"assets/elements/ys-i18n/ys-i18n-behavior.html"
 			]
 		],
 		"width": 0.0
