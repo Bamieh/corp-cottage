@@ -1,5 +1,7 @@
 # Corp-cottage
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Bamieh/corp-cottage.svg)](https://greenkeeper.io/)
+
 A “key metrics” view, containing components displaying: 
   1. the number of open issues
   2. a line chart reflecting number of paying customers over a period of time
